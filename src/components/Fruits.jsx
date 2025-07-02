@@ -17,8 +17,8 @@ function Fruits() {
       price: 50,
     },
     {
-      name: "Banana",
-      emoji: "🍌",
+      name: "Kiwi",
+      emoji: "🥝",
       price: 180,
     },
   ];
