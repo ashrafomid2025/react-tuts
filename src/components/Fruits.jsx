@@ -19,14 +19,14 @@ function Fruits() {
     {
       name: "Kiwi",
       emoji: "🥝",
-      price: 180,
+      price: 200,
     },
   ];
   return (
     <div className="w-full flex justify-between gap-1.5 flex-wrap">
       {fruits.map((fruit) => (
         <Fruit
-          key={fruit.name}
+          key={fruit.emoji}
           emoji={fruit.emoji}
           name={fruit.name}
           price={fruit.price}
