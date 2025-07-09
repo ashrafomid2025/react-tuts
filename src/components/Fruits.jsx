@@ -43,10 +43,10 @@ function Fruits() {
   });
 
   return (
-    <div className="w-full flex justify-between gap-1.5 flex-wrap">
+    <div className="w-full flex justify-between gap-1.5 p-2 flex-wrap">
       {newFruits.map((fruit) => (
         <Fruit
-          key={fruit.emoji}
+          key={fruit.name}
           emoji={fruit.emoji}
           name={fruit.name}
           price={fruit.price}
